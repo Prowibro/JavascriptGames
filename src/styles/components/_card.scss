@@ -1,7 +1,9 @@
 .c-card {
   background: $background__c-card;
   font-size: large;
-  border-radius: 7px;
+  border-radius: 20px;
   padding: 1rem;
+  // margin: 2rem;
+  display: inline-block;
   box-shadow: 6px 6px 5px 1px rgba(0, 0, 0, 0.1);
 }
