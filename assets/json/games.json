@@ -1,0 +1,58 @@
+{
+  "games": [
+    {
+      "id": "1",
+      "title": "Tic Tac Toe",
+      "description": "Tic-tac-toe is a game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a diagonal, horizontal, or vertical row is the winner.",
+      "dateAdded": "",
+      "update": {
+        "date": "",
+        "version": ""
+      },
+      "img": {
+        "src": "../assets/images/tictactoeBanner.png",
+        "alt": "image of tictactoe game"
+      },
+      "buttonLink": {
+        "src": "/tictactoe",
+        "content": "Play now!"
+      }
+    },
+    {
+      "id": "2",
+      "title": "Name of the game",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "dateAdded": "",
+      "update": {
+        "date": "",
+        "version": ""
+      },
+      "img": {
+        "src": "",
+        "alt": ""
+      },
+      "buttonLink": {
+        "src": "/notfound",
+        "content": "Play now Btn 2"
+      }
+    },
+    {
+      "id": "3",
+      "title": "Name of the game",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "dateAdded": "",
+      "update": {
+        "date": "",
+        "version": ""
+      },
+      "img": {
+        "src": "",
+        "alt": ""
+      },
+      "buttonLink": {
+        "src": "/notfound",
+        "content": "Play now Btn 2"
+      }
+    }
+  ]
+}

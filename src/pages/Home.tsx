@@ -1,24 +1,27 @@
 import React from 'react';
-import Button from '../components/Button';
-import Card from '../components/Card';
 import HomeCard from '../components/HomeCard';
+import jeux from '../../assets/json/games.json';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
+  let games = jeux.games;
   return (
     <>
       <h1>ElectronGames</h1>
-      <HomeCard btnChildren="Play now Btn 2">
-        <h2>Name of the game</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum
-        </p>
-      </HomeCard>
+      {games.map((game) => {
+        return (
+          <HomeCard
+            btnChildren={game.buttonLink.content}
+            btnLinkTo={game.buttonLink.src}
+          >
+            <h2>{game.title}</h2>
+            <Link to={game.buttonLink.src}>
+              <img src={game.img.src} alt={game.img.alt} />
+            </Link>
+            <p>{game.description}</p>
+          </HomeCard>
+        );
+      })}
     </>
   );
 };

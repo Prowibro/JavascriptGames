@@ -4,7 +4,10 @@ $pink: #f9035e;
 $homeBackgroundColor: $pink;
 $homeBackgroundColor: linear-gradient(180deg, $pink 0%, #95f9c3 110%);
 
+$tictactoeBackgroundColor: $pink;
+$tictactoeBackgroundColor: linear-gradient(180deg, $pink 0%, #95f9c3 110%);
+
 
 $background__c-card: $white;
 
-$homeCardBtn: #ff86c3;
+$homeCardBtn: $pink;

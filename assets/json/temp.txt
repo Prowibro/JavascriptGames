@@ -1,0 +1,19 @@
+// json game object
+{
+      "id": "",
+      "title": "",
+      "description": "",
+      "dateAdded": "",
+      "update": {
+        "date": "",
+        "version": ""
+      },
+      "img": {
+        "src": "",
+        "alt": ""
+      },
+      "buttonLink": {
+        "src": "",
+        "content": ""
+      }
+    }

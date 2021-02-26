@@ -1,6 +1,6 @@
-
 body {
   background: $homeBackgroundColor;
-  height: 100vh;
+  height: 100%;
+  min-height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
 }
