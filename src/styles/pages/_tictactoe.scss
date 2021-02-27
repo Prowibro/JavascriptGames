@@ -1,5 +1,6 @@
-body {
-  background: $tictactoeBackgroundColor;
-  height: 200vh;
-  font-family: Arial, Helvetica, sans-serif;
+.c-ticTacToe__home-btn {
+  position: absolute;
+  bottom: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
 }

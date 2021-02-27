@@ -1,13 +1,25 @@
 $white: white;
-$pink: #f9035e;
+$black: black;
+$purple: purple;
+$blue: blue;
+$lblue: lightblue;
+$green: green;
+$lgreen: lightgreen;
+$yellow: yellow;
+$orange: orange;
+$red: red;
+$redPink: #f9035e;
+$pink: pink;
+$brown: brown;
 
-$homeBackgroundColor: $pink;
-$homeBackgroundColor: linear-gradient(180deg, $pink 0%, #95f9c3 110%);
 
-$tictactoeBackgroundColor: $pink;
-$tictactoeBackgroundColor: linear-gradient(180deg, $pink 0%, #95f9c3 110%);
+$homeBackgroundColor: $redPink;
+$homeBackgroundColor: linear-gradient(180deg, $redPink 0%, #95f9c3 110%);
 
+$tictactoeBackgroundColor: $redPink;
+$tictactoeBackgroundColor: linear-gradient(180deg, $redPink 0%, #95f9c3 110%);
 
 $background__c-card: $white;
 
-$homeCardBtn: $pink;
+$homeCardBtn: $redPink;
+

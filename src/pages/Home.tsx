@@ -11,6 +11,7 @@ const Home = () => {
       {games.map((game) => {
         return (
           <HomeCard
+            id={game.id}
             btnChildren={game.buttonLink.content}
             btnLinkTo={game.buttonLink.src}
           >
